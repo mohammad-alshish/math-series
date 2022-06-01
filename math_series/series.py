@@ -1,4 +1,8 @@
-# fibonacci
+
+
+ # fibonacci
+ # Accept an integer and output what Fibonacci value that integer corresponds with The integer input represents the index of the output value.
+
 
 def fibonacci(n):
   if type(n) != int :
@@ -11,7 +15,10 @@ def fibonacci(n):
     return(fibonacci(n-1) + fibonacci(n-2))
 
 
-# Lucas
+
+
+ # Lucas
+ # Accept an integer and output what Lucas value that integer corresponds with The integer input represents the index of the output value.
 
 def Lucas(n):
   if type(n) != int :
@@ -27,7 +34,11 @@ def Lucas(n):
 
 
 
-# Sum series
+
+  # Sum series
+  # Accept an integer and two optional arguments, which are set to 0 and 1 respectively by default (AKA the starting numbers for Fibonacci). If those two optional arguments are passed into the function call,
+  # they represent the first two numbers in a new sequence that follows the same rule as Fibonacci and Lucas (AKA, those two optional arguments represent index 0 and 1 of the new sequence).
+  # The required integer input represents the index of the output value.
 
 def sum_series(n, n1=0, n2=1):
 
